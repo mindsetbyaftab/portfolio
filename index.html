@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aftab Shaikh — Portfolio</title>
+  <meta name="description" content="Portfolio of Aftab Shaikh — Web Development, Graphics, Thumbnails.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="#" class="brand">Aftab<span>.</span></a>
+    <nav class="nav" id="nav">
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav__list" id="navList">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">🌙</button>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="section hero reveal">
+      <div class="hero__text">
+        <h1>Hi, I'm <span class="accent">Aftab</span> 👋</h1>
+        <p class="lead">
+          I’m a <strong>software engineering student</strong> passionate about building fast, responsive, and impactful web applications
+          using WordPress and JavaScript.
+        </p>
+        <div class="cta-row">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn ghost">Hire Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com/mindsetbyaftab" type="_blank" aria-label="Instagram"><img src="images/instagram.png"
+              alt="instagram icon"></a>
+          <a href="https://www.facebook.com/Mindsetbyaftab/" type="_blank" aria-label="facebook"><img
+              src="images/facebook.png" alt="facebook icon"></a>
+        </div>
+      </div>
+      <div class="hero__art">
+        <div class="card glass">
+          <p>Available for freelance</p>
+          <span class="dot dot--green"></span>
+        </div>
+        <div class="blob"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section reveal">
+      <div class="container narrow">
+        <h2 class="section__title">About Me</h2>
+        <p>
+          I’m an 18-year-old software engineering student from India, passionate about merging creativity with technology to craft impactful digital experiences. I build dynamic, high-performance websites using WordPress, custom JavaScript, and Shopify — transforming ideas into scalable, real-world solutions.
+        </p>
+        <ul class="facts">
+          <li>📍 India (remote-friendly)</li>
+          <li>🧰 Tools: Photoshop, VS Code</li>
+          <li>✨ Code that works • Websites that convert • Experiences that inspire</li>
+          <li>⚡ Fast delivery & clear communication</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2 class="section__title">Featured Projects</h2>
+        <div>
+          <h3>1. Thumbnails Projects</h3>
+        </div>
+        <div class="grid projects">
+
+          <article class="card project">
+            <img src="images/unlimited skins.jpg" alt="Project 1 preview">
+            <div class="project__body">
+              <h3>Mobile Skin Cutting Machine Unboxing & training</h3>
+              <div class="tags">
+                <span>Photoshop</span><span>Design</span>
+              </div>
+              <div class="actions">
+                <a class="btn small" href="images/unlimited skins.jpg" target="_blank">View Thumbnail In Full Screen</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img src="images/Fixnoclogs.jpg" alt="Project 2 preview">
+            <div class="project__body">
+              <h3>Easy DTF Printer Ink Maintenance Hack ! Epson L18050</h3>
+              <div class="tags">
+                <span>Photoshop</span><span>Design</span>
+              </div>
+              <div class="actions">
+                <a class="btn small" href="images/Fixnoclogs.jpg" target="_blank">View Thumbnail In Full Screen</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img src="images/consistency.jpg" alt="Project 3 preview">
+            <div class="project__body">
+              <h3>How to Stay Consistent Every Single Day</h3>
+              <div class="tags">
+                <span>Photoshop</span><span>Design</span>
+              </div>
+              <div class="actions">
+                <a class="btn small" href="images/consistency.jpg" target="_blank">View Thumbnail In Full Screen</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        <div class="viewmore">
+          <a href="thumbproject.html"><button type="submit" class="btn primary btns">View More</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills-section section reveal" id="skills">
+      <div class="container narrow">
+        <h2 class="section__title">Skills</h2>
+      </div>
+
+      <!-- 👇 ye wrapper add karo -->
+      <div class="skills-container">
+        <div class="box box1">
+          <img src="https://cdn-icons-png.flaticon.com/512/1907/1907556.png" alt="wordpress img">
+          <h3>WordPress Web Developement</h3>
+        </div>
+
+        <div class="box box2">
+          <img src="https://cdn-icons-png.flaticon.com/512/7991/7991055.png" alt="coding img">
+          <h3>Basics Coding Web Developement</h3>
+        </div>
+
+        <div class="box box3">
+          <img src="https://cdn-icons-png.flaticon.com/512/3547/3547734.png" alt="photoshop img">
+          <h3>Photoshop</h3>
+        </div>
+
+        <div class="box box4">
+          <img src="https://cdn-icons-png.flaticon.com/512/14063/14063185.png" alt="shopify img">
+          <h3>Shopify E-commerce Website</h3>
+        </div>
+
+        <div class="box box5">
+          <img src="https://cdn-icons-png.flaticon.com/512/3940/3940120.png" alt="canva img">
+          <h3>Canva Designs</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <div class="container narrow">
+        <h2 class="section__title">Contact</h2>
+        <p>Have a project? Let's talk.</p>
+        <a href="contact.html"><button type="submit" class="btn primary">Contact</button></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Aftab Shaikh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
