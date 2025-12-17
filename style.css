@@ -286,6 +286,10 @@ img {
   transform: translateY(-1px)
 }
 
+.container .style{
+  padding: 15px;
+}
+
 /* Projects */
 .grid.projects {
   display: grid;
