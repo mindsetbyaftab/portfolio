@@ -482,7 +482,7 @@ img {
   color: var(--muted);
 }
 
-.footer{
+footer .footer{
   justify-items: center;
 }
 
